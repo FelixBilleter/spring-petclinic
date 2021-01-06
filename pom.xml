@@ -158,6 +158,7 @@
             <phase>validate</phase>
             <configuration>
               <configLocation>src/checkstyle/nohttp-checkstyle.xml</configLocation>
+              <skip>true</skip>
               <suppressionsLocation>src/checkstyle/nohttp-checkstyle-suppressions.xml</suppressionsLocation>
               <encoding>UTF-8</encoding>
               <sourceDirectories>${basedir}</sourceDirectories>
